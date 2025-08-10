@@ -8,7 +8,7 @@ const isCreateModalOpen = defineModel()
 </script>
 
 <template>
-  <div v-if="isCreateModalOpen" class="modal">
+  <div class="modal">
     <div class="modal-content">
       <div class="modal-header">
         <h2>新規作成モーダル</h2>

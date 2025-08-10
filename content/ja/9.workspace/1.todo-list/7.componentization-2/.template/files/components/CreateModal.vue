@@ -8,7 +8,6 @@
 </script>
 
 <template>
-  <!-- v-ifを使用して、modelValueの値によってモーダルが表示されるよう修正 -->
   <div class="modal">
     <div class="modal-content">
       <div class="modal-header">

@@ -97,7 +97,7 @@ type Todo = {
 
       <!-- 新規作成モーダル -->
       <!-- TODO: isCreateModalOpenを渡す  -->
-      <CreateModal />
+      <CreateModal v-if="isCreateModalOpen"/>
     </main>
 
     <footer class="footer">

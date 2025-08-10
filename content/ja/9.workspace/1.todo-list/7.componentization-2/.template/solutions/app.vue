@@ -97,6 +97,7 @@ type Todo = {
 
       <!-- 新規作成モーダル -->
       <CreateModal
+        v-if="isCreateModalOpen"
         v-model="isCreateModalOpen"
       />
     </main>
